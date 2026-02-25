@@ -1,0 +1,19 @@
+{
+  "telegram": {
+    "token": "توکن_ربات_تلگرام_شما_اینجا_وارد_شود",
+    "chat_id": "چت_آیدی_شما_اینجا_وارد_شود"
+  },
+  "scan_interval": 300,
+  "sites_to_monitor": [
+    "https://optionbaaz.ir/MarketWatch",
+    "https://optionbaaz.ir/",
+    "https://optionschool24.com/WatchOption/",
+    "https://binazirchart.ir/vip/options",
+    "https://ov.callputoption.ir/"
+  ],
+  "alert_thresholds": {
+    "volume_spike": 2.5,
+    "price_change": 0.05,
+    "iv_change": 0.15
+  }
+}
